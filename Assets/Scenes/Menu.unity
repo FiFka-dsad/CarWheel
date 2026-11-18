@@ -1040,9 +1040,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 564213343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd119cae191fb764ba8e3abbf6788f75, type: 3}
+  m_Script: {fileID: 11500000, guid: 534cb53a8ff572946a2b4586836cc2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
 --- !u!136 &564213345
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3241,7 +3242,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1998389922}
         m_TargetAssemblyTypeName: RaceLauncher, Assembly-CSharp
-        m_MethodName: StartTrial
+        m_MethodName: ConnectNetwork
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
